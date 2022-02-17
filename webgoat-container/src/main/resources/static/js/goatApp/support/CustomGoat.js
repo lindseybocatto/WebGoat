@@ -11,7 +11,6 @@ define(['jquery',
 
                 getFlights:function() {
                     var fromField = $('#travelFrom');
-                    var toField = $('#travelTo');
                     var xml = '<?xml version="1.0"?>' +
                         '<searchForm>' +
                         '  <from>' + fromField.value() + '</from>' +
